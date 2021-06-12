@@ -1,0 +1,3 @@
+extension XNull on Null {
+  
+}
