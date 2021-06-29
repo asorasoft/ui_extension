@@ -161,7 +161,7 @@ extension XWidget on Widget {
           child: Material(
           	color: Colors.transparent,
           	borderRadius: borderRadius,
-          	InkWell(
+          	child: InkWell(
               key: key,
               child: child,
               onTap: onTap,
